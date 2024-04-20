@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style type="text/css">
+        /* cytoscape graph */
+        #cy1 ,#cy2, #subg1, #subg2{
+            height: 300px;
+            width: 400px;
+            background-color: #f9f9f9;
+	      border: 1px solid #000;
+
+        }
+        .flexBase {
+          display: flex;
+          flex-direction: row;
+        }
+    </style>
+    <title>Vite App</title>
+  </head>
+  <body>
+    <input type="button" value="button" id="bt">
+    <div class="flexBase">
+      <div id="cy1"></div>
+      <div id="cy2"></div>
+    </div>
+    <div class="flexBase">
+      <div id="subg1"></div>
+      <div id="subg2"></div>
+    </div>
+    <script type="module" src="initialGraph.js"></script>
+    <script type="module" src="subGraph.js"></script>
+  </body>
+</html>
