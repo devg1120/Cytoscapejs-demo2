@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style type="text/css">
+        .panel {
+            height: 300px;
+            width: 400px;
+            background-color: #f9f9f9;
+	      border: 1px solid #000;
+
+        }
+        .flexBaseRow {
+          display: flex;
+          flex-direction: row;
+        }
+    </style>
+    <title>Vite App</title>
+  </head>
+  <body>
+    <input type="button" value="button" id="bt">
+    <div class="flexBaseRow">
+      <div class="panel" id="cy1"></div>
+      <div class="panel" id="cy2"></div>
+      <div class="panel" id="cy3"></div>
+    </div>
+    <div class="flexBaseRow">
+      <div class="panel" id="subg1"></div>
+      <div class="panel" id="subg2"></div>
+      <div class="panel" id="subg3"></div>
+    </div>
+    <script type="module" src="initialGraph.js"></script>
+    <script type="module" src="subGraph.js"></script>
+  </body>
+</html>
